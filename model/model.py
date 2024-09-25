@@ -7,7 +7,7 @@ from sklearn.linear_model import Ridge, Lasso, ElasticNet
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
 
-df = pd.read_csv('../data/sales.csv')
+df = pd.read_csv('./data/sales.csv.csv')
 
 
 # Step 1: Generate synthetic product data
